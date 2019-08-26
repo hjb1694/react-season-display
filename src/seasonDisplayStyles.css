@@ -1,0 +1,39 @@
+.seasonDisplay{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.seasonDisplay.summer{
+    background:orange;
+}
+
+.seasonDisplay.winter{
+    background:aliceblue;
+}
+
+i.snowflake{
+    color:blue;
+}
+
+i.sun{
+    color:red;
+}
+
+.icon-left{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+
+.icon-right{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+.message{
+    font-size:40px;
+}
